@@ -21,4 +21,8 @@ Start a new Ubuntu Linux server instance on Amazon Lightsail.
 6. Create instance!
 7. Once the instance has started up, connect to it using SSH.
 
+# Secure your server
+
+1. Update all currently installed packages. 
+```111```
 
