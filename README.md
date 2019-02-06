@@ -33,6 +33,6 @@ sudo apt-get upgrade
 ```
 sudo vi /etc/ssh/sshd_config
 ```
-After opening the file, change the port from 22 to 2200. 
+* After opening the file, change the port from 22 to 2200. 
 
 
