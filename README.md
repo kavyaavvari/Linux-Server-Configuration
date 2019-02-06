@@ -24,5 +24,6 @@ Start a new Ubuntu Linux server instance on Amazon Lightsail.
 # Secure your server
 
 1. Update all currently installed packages. 
-```111```
+```sudo apt-get update
+  sudo apt-get upgrade```
 
