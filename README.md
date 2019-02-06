@@ -35,4 +35,9 @@ sudo vi /etc/ssh/sshd_config
 ```
 * After opening the file, change the port from 22 to 2200. 
 
+3. Configure the Uncomplicated Firewall (UFW) to only allow incoming connections for SSH (port 2200), HTTP (port 80), and NTP (port 123).
+```
+
+```
+
 
