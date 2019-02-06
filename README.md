@@ -29,3 +29,10 @@ sudo apt-get update
 sudo apt-get upgrade
 ```
 
+2. Change the SSH port from 22 to 2200. Make sure to configure the Lightsail firewall to allow it.
+```
+sudo vi /etc/ssh/sshd_config
+```
+After opening the file, change the port from 22 to 2200. 
+
+
