@@ -9,6 +9,8 @@ This is the third project for the Udacity Fullstack Nanodegree. This project inv
 
 * **SSH Port:** 2200
 
+* http://18.222.106.206/
+
 ## Get your server
 
 Start a new Ubuntu Linux server instance on Amazon Lightsail.
