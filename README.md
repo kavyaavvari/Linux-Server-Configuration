@@ -83,7 +83,7 @@ ssh grader@18.222.106.206 -p 2200 -i ~/.ssh/pgrader
 ```
 sudo dpkg-reconfigure tzdata
 ```
-* (Select None of the above, then UTC)
+(Select None of the above, then UTC)
 
 2.  Install and configure Apache to serve a Python mod_wsgi application.
 ```
