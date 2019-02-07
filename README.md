@@ -95,6 +95,7 @@ sudo apt-get install libapache2-mod-wsgi-py3
 sudo vi /etc/apache2/sites-enabled/000-default.conf
 ```
 * Add the following line ```WSGIScriptAlias / /var/www/html/myapp.wsgi``` right before the closing of ```</VirtualHost>```
+* Finally, restart Apache with the ```sudo apache2ctl restart``` command.
 * Enable the mod_wsgi using the command:
 ```
 sudo a2enmod wsgi
