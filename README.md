@@ -65,6 +65,11 @@ And add this line to the file:
 ```
 grader ALL=(ALL) NOPASSWD:ALL
 ```
+* To check whether grader has sudo access, run this command:
+```
+sudo cat /etc/passwd
+```
+(You should see grader at the bottom)
 
 3. Create an SSH key pair for grader using the ssh-keygen tool by running the command: 
 ```
@@ -77,6 +82,7 @@ To login to grader, run the command:
 ```
 ssh grader@18.222.106.206 -p 2200 -i ~/.ssh/pgrader
 ```
+4. After logging in to grader
 
 ## Prepare to deploy your project
 1. Configure the local timezone to UTC.
