@@ -68,4 +68,7 @@ grader ALL=(ALL) NOPASSWD:ALL
 ```
 ssh-keygen -t rsa
 ```
-
+To login to grader, run the command:
+```
+ssh grader@18.222.106.206 -p 2200 -i ~/.ssh/pgrader
+```
