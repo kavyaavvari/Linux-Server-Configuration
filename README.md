@@ -90,3 +90,12 @@ sudo apt-get install apache2
 ```
 sudo apt-get install libapache2-mod-wsgi-py3
 ```
+* Enable the mod_wsgi using the command:
+```
+sudo a2enmod wsgi
+```
+* Install some libraries of python development:
+```
+sudo apt-get install libpq-dev python-dev
+```
+3. Install and configure PostgreSQL:
