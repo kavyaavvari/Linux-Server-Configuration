@@ -82,8 +82,11 @@ To login to grader, run the command:
 ```
 ssh grader@18.222.106.206 -p 2200 -i ~/.ssh/pgrader
 ```
-4. After logging in to grader
-
+4. After logging in to grader, disable login for the root user. Run the following command:
+```
+sudo vi /etc/ssh/sshd_config
+```
+* After opening the file, find the line ```PermitRootLogin``` and remove the hashtag and edit it to ```no```. 
 ## Prepare to deploy your project
 1. Configure the local timezone to UTC.
 ```
