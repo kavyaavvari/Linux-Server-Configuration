@@ -3,13 +3,13 @@
 
 This is the third project for the Udacity Fullstack Nanodegree. This project involves securing and setting up a Linux server. To complete this project, a Linux Server instance was setup on Amazon Lightsail. 
 
-# Server Info
+## Server Info
 
 * **Public IP Address:** 18.222.106.206
 
 * **SSH Port:** 2200
 
-# Get your server
+## Get your server
 
 Start a new Ubuntu Linux server instance on Amazon Lightsail.
 
@@ -21,7 +21,7 @@ Start a new Ubuntu Linux server instance on Amazon Lightsail.
 6. Create instance!
 7. Once the instance has started up, connect to it using SSH.
 
-# Secure your server
+## Secure your server
 
 1. Update all currently installed packages. 
 ```
@@ -48,7 +48,7 @@ sudo ufw status
 ```
 > Warning: When changing the SSH port, make sure that the firewall is open for port 2200 first, so that you don't lock yourself out of the server. When you change the SSH port, the Lightsail instance will no longer be accessible through the web app 'Connect using SSH' button. The button assumes the default port is being used. There are instructions on the same page for connecting from your terminal to the instance. Connect using those instructions and then follow the rest of the steps.
 
-# Give grader access
+## Give grader access
 In order for your project to be reviewed, the grader needs to be able to log in to your server.
 
 1. Create a new user account named grader.
