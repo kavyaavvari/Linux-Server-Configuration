@@ -68,6 +68,9 @@ grader ALL=(ALL) NOPASSWD:ALL
 ```
 ssh-keygen -t rsa
 ```
+* Save the private key on your local machine
+* Save the public key on the server in a file called ```authorized_keys``` in the ```.ssh``` directory
+
 To login to grader, run the command:
 ```
 ssh grader@18.222.106.206 -p 2200 -i ~/.ssh/pgrader
