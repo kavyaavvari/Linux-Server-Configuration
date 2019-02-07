@@ -5,7 +5,7 @@ This is the third project for the Udacity Fullstack Nanodegree. This project inv
 
 # Server Info
 
-* **Public IP Address:** 18.223.171.178
+* **Public IP Address:** 18.222.106.206
 
 * **SSH Port:** 2200
 
