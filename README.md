@@ -69,7 +69,7 @@ grader ALL=(ALL) NOPASSWD:ALL
 ssh-keygen -t rsa
 ```
 * Save the private key on your local machine
-* Save the public key on the server in a file called ```authorized_keys``` in the ```.ssh``` directory
+* Save the public key on the server in a file called ```authorized_keys```. This file should be located in a ```.ssh``` directory so make a directory with that name so the file can be stored. 
 
 To login to grader, run the command:
 ```
