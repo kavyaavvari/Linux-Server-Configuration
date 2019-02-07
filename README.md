@@ -90,6 +90,11 @@ sudo apt-get install apache2
 ```
 sudo apt-get install libapache2-mod-wsgi-py3
 ```
+* Configure Apache to handle requests using the WSGI module by opening the 000-default.conf file.
+```
+sudo vi /etc/apache2/sites-enabled/000-default.conf
+```
+* Add the following line ```WSGIScriptAlias / /var/www/html/myapp.wsgi``` right before the closing of ```</VirtualHost>```
 * Enable the mod_wsgi using the command:
 ```
 sudo a2enmod wsgi
