@@ -57,7 +57,11 @@ sudo adduser grader
 ```
 2. Give grader the permission to sudo.
 ```
-
+sudo vi /etc/sudoers.d/grader
+```
+And add this line to the file:
+```
+grader ALL=(ALL) NOPASSWD:ALL
 ```
 
 3. Create an SSH key pair for grader using the ssh-keygen tool.
