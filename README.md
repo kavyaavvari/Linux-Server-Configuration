@@ -99,3 +99,7 @@ sudo a2enmod wsgi
 sudo apt-get install libpq-dev python-dev
 ```
 3. Install and configure PostgreSQL:
+```
+sudo apt-get install postgresql
+```
+
