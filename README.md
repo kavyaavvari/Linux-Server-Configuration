@@ -87,6 +87,8 @@ ssh grader@18.222.106.206 -p 2200 -i ~/.ssh/pgrader
 sudo vi /etc/ssh/sshd_config
 ```
 * After opening the file, find the line ```PermitRootLogin``` and remove the hashtag and edit it to ```no```. 
+(It should look like this: ```PermitRootLogin no```
+
 ## Prepare to deploy your project
 1. Configure the local timezone to UTC.
 ```
