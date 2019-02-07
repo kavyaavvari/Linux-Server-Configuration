@@ -79,7 +79,7 @@ ssh grader@18.222.106.206 -p 2200 -i ~/.ssh/pgrader
 ```
 
 ## Prepare to deploy your project
-1. Configure the local timezone to UTC.
+1. Configure the local timezone to UTC. (Select None of the above, then UTC).
 ```
 sudo dpkg-reconfigure tzdata
 ```
