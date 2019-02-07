@@ -64,6 +64,8 @@ And add this line to the file:
 grader ALL=(ALL) NOPASSWD:ALL
 ```
 
-3. Create an SSH key pair for grader using the ssh-keygen tool.
-By running the command: ```ssh-keygen -t rsa```
+3. Create an SSH key pair for grader using the ssh-keygen tool by running the command: 
+```
+ssh-keygen -t rsa
+```
 
