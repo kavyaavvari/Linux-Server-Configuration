@@ -75,3 +75,18 @@ To login to grader, run the command:
 ```
 ssh grader@18.222.106.206 -p 2200 -i ~/.ssh/pgrader
 ```
+
+## Prepare to deploy your project
+1. Configure the local timezone to UTC.
+```
+sudo dpkg-reconfigure tzdata
+```
+
+2.  Install and configure Apache to serve a Python mod_wsgi application.
+```
+sudo apt-get install apache2
+```
+* Install library functions of apache using the command:
+```
+sudo apt-get install libapache2-mod-wsgi-py3
+```
