@@ -49,9 +49,15 @@ sudo ufw status
 > Warning: When changing the SSH port, make sure that the firewall is open for port 2200 first, so that you don't lock yourself out of the server. When you change the SSH port, the Lightsail instance will no longer be accessible through the web app 'Connect using SSH' button. The button assumes the default port is being used. There are instructions on the same page for connecting from your terminal to the instance. Connect using those instructions and then follow the rest of the steps.
 
 # Give grader access
-> In order for your project to be reviewed, the grader needs to be able to log in to your server.
+In order for your project to be reviewed, the grader needs to be able to log in to your server.
 
 1. Create a new user account named grader.
 ```
 sudo adduser grader
 ```
+2. Give grader the permission to sudo.
+```
+
+```
+
+3. Create an SSH key pair for grader using the ssh-keygen tool.
