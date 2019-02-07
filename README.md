@@ -102,4 +102,9 @@ sudo apt-get install libpq-dev python-dev
 ```
 sudo apt-get install postgresql
 ```
+* Do not allow remote connections.
+* Create a new database user named catalog that has limited permissions to your catalog application database.
+```
+
+```
 
