@@ -178,7 +178,16 @@ iv. ```cd``` into the /var/www/catalog directory and create the .wsgi file
 ```
 touch catalog.wsgi
 ```
-v. Clone your project from github into the /var/www/catalog directory:
+v. Add the following to catalog.wsgi file:
+```
+import sys
+import logging
+logging.basicConfig(stream=sys.stderr)
+sys.path.insert(0, "/var/www/catalog/Udacity-Item-Catalog/vagrant/catalog/")
+
+from application.py import app as application
+```
+vi. Clone your project from github into the /var/www/catalog directory:
 ```
 git clone https://github.com/kavyaavvari/Udacity-Item-Catalog.git
 ```
