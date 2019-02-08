@@ -157,4 +157,29 @@ vii. Log out from PostgreSQL and return to the grader user:
 exit
 ```
 
+4. Install git.
+```
+sudo apt-get install git
+```
+
+## Deploy the item catalog project
+
+1. Clone and setup your Item Catalog project from the Github repository you created earlier in this Nanodegree program.
+
+i. Make a catalog named directory in /var/www
+```
+sudo mkdir /var/www/catalog
+```
+ii. Change the owner of the directory catalog
+```
+sudo chown -R grader:grader /var/www/catalog
+```
+iv. ```cd``` into the /var/www/catalog directory and create the .wsgi file
+```
+touch catalog.wsgi
+```
+v. Clone your project from github into the /var/www/catalog directory:
+```
+git clone https://github.com/kavyaavvari/Udacity-Item-Catalog.git
+```
 
