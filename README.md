@@ -125,10 +125,35 @@ sudo apt-get install postgresql
 sudo cat /etc/postgresql/9.3/main/pg_hba.conf
 ```
 * Create a new database user named catalog that has limited permissions to your catalog application database.
-- Login to postgres and get into the PostgreSQL shell:
+i. Login to postgres and get into the PostgreSQL shell:
 ```
 sudo su - postgres
 psql
+```
+ii. Create new user named catalog:
+```
+CREATE USER catalog WITH PASSWORD 'login'
+```
+iii. Create new database named catalog:
+```
+CREATE DATABASE catalog WITH OWNER catalog;
+```
+iv. Connect to the database catalog:
+```
+\c
+```
+v. Revoke all rights of the user:
+```
+REVOKE ALL ON SCHEMA public FROM public;
+```
+vi. Lock down the permissions only to user catalog:
+```
+GRANT ALL ON SCHEMA public TO catalog;
+```
+vii. Log out from PostgreSQL and return to the grader user:
+```
+\q
+exit
 ```
 
 
