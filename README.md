@@ -120,9 +120,15 @@ sudo apt-get install libpq-dev python-dev
 ```
 sudo apt-get install postgresql
 ```
-* Do not allow remote connections.
+* Check to make sure no remote connections are allowed:
+```
+sudo cat /etc/postgresql/9.3/main/pg_hba.conf
+```
 * Create a new database user named catalog that has limited permissions to your catalog application database.
+- Login to postgres and get into the PostgreSQL shell:
+```
+sudo su - postgres
+psql
 ```
 
-```
 
