@@ -9,7 +9,7 @@ This is the third project for the Udacity Fullstack Nanodegree. This project inv
 
 * **SSH Port:** 2200
 
-* http://18.222.106.206/
+* http://18.222.106.206.xip.io
 
 ## Get your server
 
